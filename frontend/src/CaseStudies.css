@@ -1,0 +1,51 @@
+/* CaseStudies.css */
+.case-study-box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%; /* Ensures all boxes are of equal height */
+}
+
+.case-study-image {
+    width: 100%;
+    height: 200px; /* Fixed height to keep images uniform */
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+}
+
+.case-study-title {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    background-color: #f7f7f7;
+    text-align: center;
+    flex: 0 0 auto; /* Prevents title from expanding */
+}
+
+.case-study-summary {
+    padding: 1rem;
+    flex: 1; /* Allows summary to expand and fill remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.case-study-summary p {
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    align-self: flex-end; /* Aligns button to the bottom right */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}

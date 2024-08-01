@@ -1,0 +1,102 @@
+/* Applications.css */
+
+/* General Header Styles */
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navigation Styles */
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+/* Container Styles */
+.container {
+    padding: 20px;
+}
+
+/* Application Grid */
+.application-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Application Box Styles */
+.application-box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+    overflow: hidden; /* Ensures no content spills outside the box */
+}
+
+/* Header Section in Application Box */
+.application-header {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #e9ecef;
+    flex-shrink: 0; /* Prevents header from shrinking */
+}
+
+/* Body Section in Application Box */
+.application-body {
+    flex: 1; /* Takes up the remaining space */
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center aligns the text */
+}
+
+/* Footer Section in Application Box */
+.application-footer {
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    background-color: #e9ecef;
+    text-align: right;
+    flex-shrink: 0; /* Prevents footer from shrinking */
+}
+
+/* Apply Button Styles */
+.apply-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}
